@@ -13,7 +13,7 @@
         $senha = $_POST["senha"]; 
 
         if($nome == "adm" and $senha == "123"){
-            header("Location: "."inicialadm.php");
+            header("Location: "."index.html");
         }elseif($nome == "Mariana" and $senha == "123"){
             header("Location: "."inicialusu.php");
         }elseif($nome == "Bibliotecario" and $senha == "123"){
