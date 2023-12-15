@@ -68,15 +68,16 @@ header {
     float: right;
 }
 
-.usu img{
-height: 24px;
-background-color: antiquewhite;
+.usu img {
+    height: 24px;
+    background-color: antiquewhite;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
 }
+
 .mncards {
     width: max-content;
     display: flex;
@@ -92,7 +93,7 @@ section{
 
 .info {
     font-weight: bold;
-    text-decoration:underline;
+    text-decoration: underline;
     background-color: antiquewhite;
     padding: 10px;
     width: 270px;

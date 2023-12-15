@@ -12,9 +12,9 @@
         $nome = $_POST["nome"];
         $senha = $_POST["senha"]; 
 
-        if($nome == "debora" and $senha == "123"){
+        if($nome == "adm" and $senha == "123"){
             header("Location: "."inicialadm.html");
-        }elseif($nome == "maria" and $senha == "123"){
+        }elseif($nome == "biblio" and $senha == "123"){
             header("Location: "."index.html");
         }else{
             header("Location: "."trabnao.php");
