@@ -5,7 +5,7 @@ section {
 
 .cesta2 {
     margin-top: 40px;
-    height: 450px;
+    height:max-content;
     width: 1200px;
     background-color: antiquewhite;
     border-radius: 15px;
@@ -20,9 +20,7 @@ padding-left: 30px;
 .it1 {
     font-weight: bold;
     width: 570px;
-    text-align: left;
-    
-    
+    text-align: left;  
 }
 
 .it2 {
@@ -40,7 +38,7 @@ padding-left: 110px;
 
 .itens {
     float: left;
-    width: 900px;
+    width: max-content;
     text-align: left;
     display: flex;
     padding: 20px;
@@ -110,3 +108,19 @@ background-color: rgb(124, 0, 0);
     
 }
 
+.pedfin{
+    padding-left: 60px;
+padding-top: 20px;
+border-radius: 15px;
+
+text-decoration: none;
+transition: 0.5s;
+}
+
+.pedfin mark{
+padding: 5px;
+background-color: rgb(243, 0, 0);
+border-radius: 10px;
+color: antiquewhite;
+font-weight: bold;
+}
