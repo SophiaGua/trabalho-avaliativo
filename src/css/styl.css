@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+header {
+    padding: 10px;
+    height: 100px;
+    background-color: rgba(214, 130, 20, 0.514);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+}
+
+.mn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu {
+    padding: 7px;
+
+}
+
+.menu2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.mn2{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    padding-right: 5px;
+}
+.mn2:hover{
+    color: rgba(241, 205, 159, 0.904);
+    border-radius: 7px;
+    text-decoration: underline;
+}
+
+.cesta {
+    float: right;
+    height: 50px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.cesta:hover {
+    background-color: rgba(241, 205, 159, 0.582);
+    border-radius: 7px;
+}
+
+.usu {
+    height: 30px;
+    padding-right: 3px;
+}
+
+.logcad {
+    float: left;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.logcad:hover {
+    background-color: rgba(241, 205, 159, 0.582);
+    border-radius: 7px;
+}
+
+.posi {
+    padding-top: 10px;
+    float: left;
+    padding-left: 170px;
+}
+
+.divBusca {
+    background-color: rgba(250, 235, 215, 0.459);
+    border: solid 2px;
+    border-radius: 15px;
+    width: 650px;
+    display: flex;
+}
+
+.btnBusca {
+    height: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.txtBusca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 610px;
+}
+
+section {
+    height: max-content;
+    width: 100%;
+    text-align: center;
+}
+
+.mncards {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.card img {
+    height: 160px;
+}
+
+
+.corpo {
+    max-height: 300px;
+    width: 100%;
+    color: rgb(172, 172, 172);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.banner {
+    max-width: 1500px;
+    width: auto;
+    height: auto;
+}
+
+.mostruario {
+    height: fit-content;
+    border-radius: 4px;
+    padding: 1%;
+    padding-left: 1.6%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.002);
+    box-shadow: 0 8px 32px 0 rgba(6, 8, 29, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+}
+
+.prore {
+    display: inline-block;
+    color: rgb(185, 185, 185);
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.prore p {
+    padding: 5px;
+    text-align: left;
+}
+
+.prore:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.imgsem {
+    border-radius: 3px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tit {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
