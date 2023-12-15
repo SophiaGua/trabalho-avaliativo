@@ -12,9 +12,11 @@
         $nome = $_POST["nome"];
         $senha = $_POST["senha"]; 
 
-        if($nome == "adm" and $senha == "123"){
+        if($nome == "adm" and $senha == "adm"){
             header("Location: "."inicialadm.html");
-        }elseif($nome == "biblio" and $senha == "123"){
+        }elseif($nome == "inter" and $senha == "inter"){
+            header("Location: "."index.html");
+        }elseif($nome == "usu" and $senha == "usu"){
             header("Location: "."index.html");
         }else{
             header("Location: "."trabnao.php");
