@@ -15,11 +15,11 @@
         if($nome == "adm" and $senha == "adm"){
             header("Location: "."inicialadm.html");
         }elseif($nome == "inter" and $senha == "inter"){
-            header("Location: "."index.html");
+            header("Location: "."inicialbiblio.html");
         }elseif($nome == "usu" and $senha == "usu"){
             header("Location: "."index.html");
         }else{
-            header("Location: "."trabnao.php");
+            header("Location: "."index.html");
         }
         
     ?>
