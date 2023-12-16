@@ -14,7 +14,7 @@
 
         <div class="menu">
             <div class="logcad">
-                <a href="./login.html" class="mn"><img src="./src/img/icons8-pessoa-90 (1).png"
+                <a href="./login.php" class="mn"><img src="./src/img/icons8-pessoa-90 (1).png"
                         class="usu">Login/Cadastro</a>
             </div>
             <div class="posi">
@@ -23,11 +23,11 @@
                     <img src="./src/img/icons8-lupa-50.png" class="btnBusca" alt="Buscar" />
                 </div>
             </div>
-            <a href="./cesta.html" class="mn"><img src="./src/img/icons8-cesta-50 (1).png" class="cesta"><a>
+            <a href="./cesta.php" class="mn"><img src="./src/img/icons8-cesta-50 (1).png" class="cesta"><a>
         </div>
 
         <div class="menu2">
-            <a href="./Noticias.html" class="mn2">Noticias</a>
+            <a href="./Noticias.php" class="mn2">Noticias</a>
         </div>
     </header>
 

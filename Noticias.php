@@ -14,8 +14,8 @@
 
         <div class="menu">
             <div class="logcad">
-                <a href="./inicialbiblio.html" class="mn"><img src="./src/img/icons8-pessoa-90 (1).png"
-                        class="usu">Vendedor</a>
+                <a href="./login.php" class="mn"><img src="./src/img/icons8-pessoa-90 (1).png"
+                        class="usu">Login/Cadastro</a>
             </div>
             <div class="posi">
                 <div class="divBusca">
@@ -23,11 +23,11 @@
                     <img src="./src/img/icons8-lupa-50.png" class="btnBusca" alt="Buscar" />
                 </div>
             </div>
+            <a href="./cesta.php" class="mn"><img src="./src/img/icons8-cesta-50 (1).png" class="cesta"><a>
         </div>
+
         <div class="menu2">
-            <a href="./pedidosonline.html" class="mn2">Pedidos Online</a>
-            <a href="./tarefas.html" class="mn2">Trefas</a>
-            <a href="./Noticiasinternas.html"  class="mn2">noticias</a>
+            <a href="./index.php" class="mn2">Inicial</a>
         </div>
     </header>
 
@@ -36,26 +36,25 @@
         <div class="mostruario" alt="rpg">
 
             <div class="prore">
-                <img src="./src/img/noticias/download (3).jpeg" class="imgsem">
+                <img src="./src/img/noticias/maxresdefault.jpg" class="imgsem">
                <h1>
-                Abertura de Loja fisica
+                Assasin's creed esta chegando ao mundos dos RPGS!
                </h1>
                <p>10 de set. de 2023</p>
             </div>
 
             <div class="prore">
-                <img src="./src/img/noticias/contrato-de-prestacao-de-servico-1200x675.png" class="imgsem">
-               <h1>Novo contrato com revendedores</h1>
+                <img src="./src/img/noticias/Goblin-de-Ouro-2023-DOFF2023-Nuckturp-Diversao-Offline-2023.jpg" class="imgsem">
+               <h1>Veja quem ganhou o goblin de ouro!</h1>
                <p>19 de jun. de 2023</p>
             </div>
 
             <div class="prore">
-                <img src="./src/img/noticias/aumento-da-retencao-de-clientes.jpg" class="imgsem">
-               <h1>Aumento no numero de clientes</h1>
+                <img src="./src/img/noticias/1_RWTA2X0AMedKcW9_exEgNQ.webp" class="imgsem">
+               <h1>Venha explorar a terra media em O Senhor Dos Anéis: Jornadas Na Terra Média</h1>
                <p>9 de mar. de 2023</p>
             </div>
             
-
         </div>
 
     </section>

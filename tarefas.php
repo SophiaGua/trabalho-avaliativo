@@ -15,16 +15,16 @@
 
         <div class="menu">
             <div class="logcad">
-                <a href="./inicialbiblio.html" class="mn"><img src="./src/img/icons8-pessoa-90 (1).png"
+                <a href="./inicialbiblio.php" class="mn"><img src="./src/img/icons8-pessoa-90 (1).png"
                         class="usu">Vendedor</a>
             </div>
             
         </div>
 
         <div class="menu2">
-            <a href="./pedidosonline.html" class="mn2">Pedidos Online</a>
-            <a href="./tarefas.html" class="mn2">Trefas</a>
-            <a href="./Noticiasinternas.html" class="mn2">noticias</a>
+            <a href="./pedidosonline.php" class="mn2">Pedidos Online</a>
+            <a href="./tarefas.php" class="mn2">Trefas</a>
+            <a href="./Noticiasinternas.php" class="mn2">noticias</a>
         </div>
     </header>
 
